@@ -18,3 +18,8 @@ source ~/.zshrc
 3. Now just use **sync-bb** to activate the full project!
 
 quick note - use this weekly to ensure all of your assignments are up to date
+
+## ⚠️ Troubleshooting
+* **Session Expired**: If the scraper fails to find the calendar, the browser session likely expired. Simply run `sync-bb` and log in again manually in the window that pops up.
+* **Missing Assignments**: Ensure you are in the **"Due Dates"** list view on the Blackboard calendar before pressing Enter in the terminal.
+* **Notion Property Errors**: Verify your Notion database has a **Select** property named "Class" and a **Date** property named "Date".
